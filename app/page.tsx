@@ -739,6 +739,7 @@ export default function FullstackPortfolio() {
                       <Badge variant="secondary">Stripe</Badge>
                       <Badge variant="secondary">PostgreSQL</Badge>
                       <Badge variant="secondary">Redis</Badge>
+                      <Badge variant="secondary">GraphQl</Badge>
                     </div>
                   </div>
                   <div className="flex gap-4">
