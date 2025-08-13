@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Moon, Sun, Menu, X } from "lucide-react";
+import Link from "next/link";
 
 export default function FullstackPortfolio() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -743,15 +744,21 @@ export default function FullstackPortfolio() {
                     </div>
                   </div>
                   <div className="flex gap-4">
-                    <Button
-                      className={`transition-all duration-200 ${
-                        isDarkMode
-                          ? "bg-white text-black hover:bg-gray-200"
-                          : "bg-black text-white hover:bg-gray-800"
-                      }`}
+                    <Link
+                      href="https://tracker.zwilt.com/dashboard"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      View Live →
-                    </Button>
+                      <Button
+                        className={`transition-all duration-200 ${
+                          isDarkMode
+                            ? "bg-white text-black hover:bg-gray-200"
+                            : "bg-black text-white hover:bg-gray-800"
+                        }`}
+                      >
+                        View Live →
+                      </Button>
+                    </Link>
                     <Button
                       variant="outline"
                       className={`transition-all duration-200 ${
