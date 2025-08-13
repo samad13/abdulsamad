@@ -721,16 +721,18 @@ export default function FullstackPortfolio() {
                         isDarkMode ? "text-gray-100" : "text-gray-900"
                       }`}
                     >
-                      E-Commerce Platform
+                      Job-productivity App
                     </h3>
                     <p
                       className={`transition-colors duration-200 ${
                         isDarkMode ? "text-gray-400" : "text-gray-600"
                       }`}
                     >
-                      A full-featured e-commerce platform built with Next.js,
-                      Stripe integration, and real-time inventory management.
-                      Handles 10k+ daily transactions.
+                      A full-featured productivity monitoring app built with
+                      React, Node.js, and Chart.js. Tracks employee task
+                      performance in real time and generates visual analytics.
+                      Designed for managers to optimize team efficiency and
+                      workflow
                     </p>
                     <div className="flex flex-wrap gap-2">
                       <Badge variant="secondary">Next.js</Badge>
@@ -765,7 +767,7 @@ export default function FullstackPortfolio() {
                   <div className="relative w-full h-64 lg:h-80">
                     <Image
                       src="/Screenshot (408).png"
-                      alt="E-commerce platform screenshot" 
+                      alt="E-commerce platform screenshot"
                       fill
                       className="object-cover rounded-lg"
                     />
